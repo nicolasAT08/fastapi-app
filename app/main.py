@@ -31,8 +31,4 @@ app.include_router(vote.router)
 
 @app.get("/")                           
 def root():                             
-    return {"message": "Hello World!!!"}   
- 
-# Open in browser http://127.0.0.1:8000/docs and you will see Swagger documentation. Or http://127.0.0.1:8000/redoc
-
-# Video time 12:42:20
+    return {"message": "Hello World!!!"}
