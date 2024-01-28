@@ -4,8 +4,8 @@ from pydantic import BaseSettings
 # Pydantic environment variables settup
 class Settings(BaseSettings):
     database_hostname:str
-    port:str
-    # database_port:str
+    # port:str
+    database_port:str
     database_password:str
     database_name:str
     database_username:str
